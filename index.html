@@ -284,7 +284,7 @@
         }
 
         // Arahkan QR Code ke Layar Kiosk Pendaftaran
-        const linkRegistrasi = `https://iot-4-three.vercel.app/registrasi/`; 
+        const linkRegistrasi = `https://iot-4-three.vercel.app`; 
         const urlQRUtama = `https://api.qrserver.com/v1/create-qr-code/?size=500x500&data=${encodeURIComponent(linkRegistrasi)}`;
         document.getElementById('qr-registrasi-utama').src = urlQRUtama;
 
